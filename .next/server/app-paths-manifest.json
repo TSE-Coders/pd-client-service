@@ -1,0 +1,7 @@
+{
+  "/page": "app/page.js",
+  "/api/players/random_player/route": "app/api/players/random_player/route.js",
+  "/api/players/players_list/route": "app/api/players/players_list/route.js",
+  "/api/pods/pods_list/route": "app/api/pods/pods_list/route.js",
+  "/api/players/players_top/route": "app/api/players/players_top/route.js"
+}

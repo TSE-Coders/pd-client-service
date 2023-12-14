@@ -33,7 +33,7 @@ export function ListPlayers(){
     return (
 
     <div>
-      <Title>Players</Title>
+      <Title>Players: All</Title>
         <div className="overflow-x-auto">
           <table className="table table-zebra ">
             {/* head */}
@@ -53,8 +53,6 @@ export function ListPlayers(){
                     <td>{player.name}</td>
                     <td>{player.pod.name}</td>
                     <td>{player.points}</td>
-                    
-                    
                   </tr>
                 </tbody>
               ))}</>

@@ -23,7 +23,8 @@ import { mainListItems, secondaryListItems } from '@/components/sidebar/listItem
 import { ListPlayers } from '@/components/players/listPlayers';
 import { ListPods } from '@/components/pod/listPods';
 import { blueGrey, grey } from '@mui/material/colors';
-import { CurrentPlayer } from '@/components/players/currentPlayer'
+import { CurrentPlayer } from '@/components/players/currentPlayer';
+import { TopPlayers } from '@/components/players/topPlayers';
 
 // Footer
 
@@ -119,7 +120,7 @@ export default function Dashboard() {
     <ThemeProvider theme={grayBlue}>
       <Box sx={{ display: 'flex' }}>
         <CssBaseline />
-        {/* navbar */}
+        {/* Dashboard.Navbar */}
         <AppBar position="absolute" open={open}>
           <Toolbar sx={{ pr: '24px'}}>
             <RadioButtonChecked edge="start" color="inherit" aria-label="open drawer" onClick={toggleDrawer} sx={{marginRight: '36px',  ...(open && { display: 'none' })}}>
@@ -133,7 +134,7 @@ export default function Dashboard() {
           </Toolbar>
         </AppBar>
 
-        {/* Drawer */}
+        {/* Dashboard.Drawer */}
         <Drawer variant="permanent" open={open}>
           <Toolbar sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', px: [1] }}>
             <RadioButtonChecked onClick={toggleDrawer}>
@@ -147,10 +148,10 @@ export default function Dashboard() {
           </List>
         </Drawer>
 
-        {/* main */}
+        {/* Dashboard.Main */}
         <Box component="main"  sx={ { backgroundColor: (theme) => theme.palette.mode === 'light'? theme.palette.grey[100] : theme.palette.grey[900], flexGrow: 1, height: '100vh', overflow: 'auto'}}> 
           
-          {/* main.marquee */}
+          {/* Dashboard.Main.Marquee */}
           
           <Container maxWidth="lg" sx={{ mt: 11, mb: 4 }}>
 
@@ -158,10 +159,8 @@ export default function Dashboard() {
 
             <CurrentPlayer/>
           </Container>
-          
-          {/* dashboard starts */}
 
-          {/* Main.Players */}
+          {/* Dashboard.Main.Players */}
           <Container maxWidth="lg" sx={{ mt: 5, mb: 4 }}>
 
             <Grid container spacing={3}>
@@ -177,7 +176,7 @@ export default function Dashboard() {
               {/* Top Players */}
               <Grid item xs={6}>
                 <Paper sx={{ display: 'flex', flexDirection: 'column' }}>
-                  <ListPlayers />
+                  <TopPlayers />
                 </Paper>
               </Grid>
               {/* ----------- */}
