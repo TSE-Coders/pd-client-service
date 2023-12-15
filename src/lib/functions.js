@@ -13,18 +13,15 @@ export function RandomPlayer(){
      const res = await fetch(`/api//players/random_player`)
      const payload = await res.json() 
       setData(payload.data)
-      console.log(typeof data.name == "undefined", 'from fetch')
       typeof data.name == "undefined"? isLoading : setLoading(false)
        
   }
   
   useEffect(() => {  
     
-     console.log(isLoading)
     const id = setInterval(() => {
                   fetchPlayer()
                   setCheck(check + 1)
-  console.log('from useEffect')
                 }, 5000);
     return () => clearInterval(id);            
   },[check])   

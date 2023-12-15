@@ -10,14 +10,15 @@ export function ListPods(){
   useEffect(() => { 
 
       fetch(`/api/pods/pods_list`)
-        .then((res) => res.json())
-        .then((data) => {
-        setData(data.data)
-        })
+      .then((res) => res.json())        
+      .then((data) => {
+      setData(data.data)
+      })
+
+          
+
+  },[])
   
-
-   },[])
-
     return (
 
     <div>
@@ -34,11 +35,11 @@ export function ListPods(){
             </thead>
               <>{data.map((pod) => (
                 <tbody key={pod.id}>
-                  {/* row 1 */}
+
                   <tr className='m-6'>
                     <td>{pod.id}</td>
                     <td>{pod.name}</td>
-                    <td>n/a</td>      
+                    <td>{pod.points}</td>      
                   </tr>
 
                 </tbody>

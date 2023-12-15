@@ -200,7 +200,7 @@ export default function Dashboard() {
               {/* Top Pods */}
               <Grid item xs={6}>
                 <Paper sx={{ display: 'flex', flexDirection: 'column' }}>
-                  <ListPods />
+                  {/* <ListPods /> */}
                 </Paper>
               </Grid>
               {/* ----------- */}
