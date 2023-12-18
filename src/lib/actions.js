@@ -2,6 +2,11 @@
 "use server"
 import { redirect } from 'next/navigation'
 
+export const metadata = {
+  title: 'PodRace',
+  description: 'From NYC with love',
+}
+
 export async function AddPlayer(formData) {
 
   const newRacer = {

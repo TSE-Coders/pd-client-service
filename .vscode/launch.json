@@ -2,18 +2,18 @@
     "version": "0.2.0",
     "configurations": [
       {
-        "name": "Next.js",
+        "name": "Next.js:server",
         "type": "node-terminal",
         "request": "launch",
-        "command": "npm run dev",
-        "cwd": "${workspaceFolder}",
-        "serverReadyAction": {
-          "pattern": "started server on .+, url: (https?://.+)",
-          "uriFormat": "%s",
-          "action": "debugWithChrome"
-        }
-      }
-
+        "command": "npm run dev"
+      },
+      {
+        "name": "Next.js:client",
+        "type": "chrome",
+        "request": "launch",
+        "url": "http://localhost:3002",
+        "webRoot": "${workspaceFolder}",
+      },
   ]
 }
     
