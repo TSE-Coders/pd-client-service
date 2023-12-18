@@ -6,6 +6,7 @@ import Paper from '@mui/material/Paper';
 import { ListPlayers } from '@/components/players/listPlayers';
 import { ListPods } from '@/components/pod/listPods';
 import { TopPlayers } from '@/components/players/topPlayers';
+import { ListEvents } from '@/components/events/listEvents';
 
 
 export default function Dashboard() {
@@ -36,7 +37,7 @@ export default function Dashboard() {
         </Grid>
       </Container>
 
-      {/* CONTENT>PODS LAYOUT */}
+      {/* CONTENT>PODS-EVENTS LAYOUT */}
       <Container maxWidth="lg" sx={{ mt: 5, mb: 4 }}>
         <Grid container spacing={3}>
 
@@ -46,8 +47,15 @@ export default function Dashboard() {
               <ListPods />
             </Paper>
           </Grid>
-        </Grid>
 
+          {/* CONTENT>LIST EVENTS */}
+          <Grid item xs={6}>
+            <Paper sx={{ display: 'flex', flexDirection: 'column' }}>
+              <ListEvents />
+            </Paper>
+          </Grid>
+
+        </Grid>
       </Container>
 
     </div>
