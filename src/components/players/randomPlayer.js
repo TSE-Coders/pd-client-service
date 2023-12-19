@@ -23,7 +23,7 @@ export function RandomPlayer(){
     const id = setInterval(() => {
                   fetchPlayer()
                   setCheck(check + 1)
-                }, 5000);
+                }, 3000);
     return () => clearInterval(id);            
   },[check])   
 
