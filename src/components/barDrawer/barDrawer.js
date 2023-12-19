@@ -4,10 +4,9 @@ import {  useState } from 'react'
 import MuiDrawer from '@mui/material/Drawer';
 import MuiAppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-import { styled, createTheme, ThemeProvider } from '@mui/material/styles';
-import { RadioButtonChecked, Menu, Notifications, ChevronLeft } from '@mui/icons-material';
+import { styled } from '@mui/material/styles';
+import { RadioButtonChecked, Menu, ChevronLeft } from '@mui/icons-material';
 import Typography from '@mui/material/Typography';
-import Badge from '@mui/material/Badge';
 import List from '@mui/material/List';
 import { mainListItems } from '@/components/barDrawer/listItems';
 import Divider from '@mui/material/Divider';
@@ -74,10 +73,6 @@ export function BarDrawer(){
             <Menu />
           </RadioButtonChecked>
           <Typography component="h1" variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>PodRace</Typography>
-          <RadioButtonChecked color="inherit"><Badge badgeContent={4} color="secondary">
-              <Notifications />
-            </Badge>
-          </RadioButtonChecked>
         </Toolbar>
       </AppBar>
       <Drawer variant="permanent" open={open}>

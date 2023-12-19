@@ -57,9 +57,7 @@ export function AddPlayer() {
   
   
   
-  return (
-
-              
+  return (          
       <div>
         <Paper sx={{ p: 5 }}>
           <form onSubmit={postPlayer}>

@@ -4,6 +4,7 @@ import {  useState, useEffect } from 'react'
 import { Title } from '@/lib/title';
 
 
+
 export function ListPlayers(){
   const [data, setData] = useState([])
   
@@ -37,7 +38,6 @@ export function ListPlayers(){
                 <tbody key={player.id} >
                   {/* row 1 */}
                   <tr className='m-6'>
-                    <td>{player.id}</td>
                     <td>{player.name}</td>
                     <td>{player.pod.name}</td>
                     <td>{player.points}</td>
