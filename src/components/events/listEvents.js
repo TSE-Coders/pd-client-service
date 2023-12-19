@@ -1,7 +1,7 @@
 "use client"
 import * as React from 'react';
 import {  useState, useEffect } from 'react'
-import Title from "@/components/tittle";
+import { Title } from '@/lib/title';
 
 
 export function ListEvents(){

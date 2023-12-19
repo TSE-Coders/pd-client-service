@@ -1,20 +1,8 @@
 "use client"
 import * as React from 'react';
 import {  useState, useEffect } from 'react'
-import { deletePlayer } from "@/lib/actions"
-import Title from "@/components/tittle";
+import { Title } from '@/lib/title';
 
-export function removePlayer(id){
-
-
-  return (
-  <form action={deletePlayer} method='DELETE'>
-    <div className="form-control">
-      <input className='btn btn-sm' type='button' name='id' value='delete'></input>
-    </div>
-  </form>)
-
-}
 
 export function ListPlayers(){
   const [data, setData] = useState([])

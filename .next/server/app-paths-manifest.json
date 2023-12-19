@@ -1,9 +1,10 @@
 {
   "/page": "app/page.js",
   "/createplayer/page": "app/createplayer/page.js",
+  "/api/players/players_create/route": "app/api/players/players_create/route.js",
+  "/api/pods/pods_list/route": "app/api/pods/pods_list/route.js",
+  "/api/events/events_list/route": "app/api/events/events_list/route.js",
   "/api/players/players_list/route": "app/api/players/players_list/route.js",
   "/api/players/random_player/route": "app/api/players/random_player/route.js",
-  "/api/pods/pods_list/route": "app/api/pods/pods_list/route.js",
-  "/api/players/players_top/route": "app/api/players/players_top/route.js",
-  "/api/events/events_list/route": "app/api/events/events_list/route.js"
+  "/api/players/players_top/route": "app/api/players/players_top/route.js"
 }

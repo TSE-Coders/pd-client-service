@@ -1,35 +1,4 @@
 {
-  "node": {
-    "6a2c764342978c92a14aebfd7c8bd5ff44a597e9": {
-      "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdaniel.calderon%2FProjects%2Fpdrace%2Fpodrace%2Fpdclient%2Fsrc%2Flib%2Factions.js%22%2C%5B%22metadata%22%2C%22AddPlayer%22%2C%22deletePlayer%22%5D%5D%5D&__client_imported__=true!",
-        "app/createplayer/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdaniel.calderon%2FProjects%2Fpdrace%2Fpodrace%2Fpdclient%2Fsrc%2Flib%2Factions.js%22%2C%5B%22metadata%22%2C%22AddPlayer%22%2C%22deletePlayer%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/page": "action-browser",
-        "app/createplayer/page": "action-browser"
-      }
-    },
-    "075cdb57aff7fcc454e07906f2180571feed702f": {
-      "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdaniel.calderon%2FProjects%2Fpdrace%2Fpodrace%2Fpdclient%2Fsrc%2Flib%2Factions.js%22%2C%5B%22metadata%22%2C%22AddPlayer%22%2C%22deletePlayer%22%5D%5D%5D&__client_imported__=true!",
-        "app/createplayer/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdaniel.calderon%2FProjects%2Fpdrace%2Fpodrace%2Fpdclient%2Fsrc%2Flib%2Factions.js%22%2C%5B%22metadata%22%2C%22AddPlayer%22%2C%22deletePlayer%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/page": "action-browser",
-        "app/createplayer/page": "action-browser"
-      }
-    },
-    "b2ad967dccbefb788dcbe541ad73a7de7cf54978": {
-      "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdaniel.calderon%2FProjects%2Fpdrace%2Fpodrace%2Fpdclient%2Fsrc%2Flib%2Factions.js%22%2C%5B%22metadata%22%2C%22AddPlayer%22%2C%22deletePlayer%22%5D%5D%5D&__client_imported__=true!",
-        "app/createplayer/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fdaniel.calderon%2FProjects%2Fpdrace%2Fpodrace%2Fpdclient%2Fsrc%2Flib%2Factions.js%22%2C%5B%22metadata%22%2C%22AddPlayer%22%2C%22deletePlayer%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/page": "action-browser",
-        "app/createplayer/page": "action-browser"
-      }
-    }
-  },
+  "node": {},
   "edge": {}
 }

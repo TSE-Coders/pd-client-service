@@ -8,7 +8,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Typography from '@mui/material/Typography';
 import { BarDrawer } from '@/components/barDrawer/barDrawer';
 import Container from '@mui/material/Container';
-import { CurrentPlayer } from '@/components/players/currentPlayer';
+import { CurrentPlayer } from '@/components/marquee/currentPlayer';
 
 // Footer
 
