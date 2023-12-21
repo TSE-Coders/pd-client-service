@@ -5,6 +5,7 @@ This is the service used to render in the browser PodRace app. The client uses N
 https://nextjs.org/docs/getting-started/installation 
 
 ## About PodRace
+![Alt text](image.png)
 
 Function that displays the information about creators and maintainers of the page  PodRace is a FullStack application created by some Datadog's TSEs to connect and test Datadog features in a real and fun environment.
 
@@ -94,6 +95,7 @@ npm run dev
 ```
 
 ### Debugging (VScode only):
+![Alt text](image-1.png)
 
 If you are using VScode, the file **.vscode/launch.json** contains the debug console configuration. https://code.visualstudio.com/docs/editor/debugging 
 
