@@ -1,4 +1,4 @@
-// File: /Users/daniel.calderon/Projects/pdrace/podrace/pdclient/src/app/layout.js
+// File: /Users/daniel.calderon/projects/pdrace/pd-client-service/src/app/layout.js
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -1,4 +1,4 @@
-// File: /Users/daniel.calderon/Projects/pdrace/podrace/pdclient/src/app/api/events/events_list/route.js
+// File: /Users/daniel.calderon/projects/pdrace/pd-client-service/src/app/api/events/events_list/route.js
 import * as entry from '../../../../../../src/app/api/events/events_list/route.js'
 import type { NextRequest } from 'next/server.js'
 
