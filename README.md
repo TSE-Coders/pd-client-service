@@ -95,7 +95,7 @@ npm run dev
 ```
 
 ### Debugging (VScode only):
-![Alt text](image-1.png)
+(![Alt text](image-2.png))
 
 If you are using VScode, the file **.vscode/launch.json** contains the debug console configuration. https://code.visualstudio.com/docs/editor/debugging 
 
