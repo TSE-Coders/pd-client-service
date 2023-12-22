@@ -28,13 +28,13 @@ export function AddPlayer() {
     try {
        
         const res = await fetch('/api/players/players_create',{
-                                  method: 'POST',
-                                  headers:{
-                                    "Content-Type": "application/json",
-                                  },
-                                  body: JSON.stringify(newPlayer)
-                                  }  
-                                )
+                    method: 'POST',
+                    headers:{
+                      "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(newPlayer)
+                    }  
+                  )
 
         const data = await res.json()
 

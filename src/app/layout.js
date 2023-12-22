@@ -9,6 +9,7 @@ import Typography from '@mui/material/Typography';
 import { BarDrawer } from '@/components/barDrawer/barDrawer';
 import Container from '@mui/material/Container';
 import { CurrentPlayer } from '@/components/marquee/currentPlayer';
+import { DatadogRum } from '@/lib/datadog';
 
 // Footer
 
@@ -25,7 +26,7 @@ function Copyright(props) {
   );
 }
 
-// Styling theme
+
 
 const grayBlue = createTheme({
   palette: {
@@ -43,6 +44,7 @@ const grayBlue = createTheme({
 });
 
 export default function RootLayout({ children }) {
+  DatadogRum()
 
   return (
     <html>
