@@ -1,0 +1,14 @@
+[Unit]
+Description=Frontent service
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/sandbox_repos/frontend/
+ExecStart=/home/ubuntu/sandbox_repos/frontend/start.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
