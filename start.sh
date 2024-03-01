@@ -2,9 +2,9 @@
 
 VERSION=$(cat version)
 
-asdf install nodejs $VERSION
-asdf local nodejs $VERSION
+/home/ubuntu/.asdf/bin/asdf install nodejs $VERSION
+/home/ubuntu/.asdf/bin/asdf local nodejs $VERSION
 
-npm install
-npm run dev
+/home/ubuntu/.asdf/shims/npm install
+/home/ubuntu/.asdf/shims/npm run dev
 
